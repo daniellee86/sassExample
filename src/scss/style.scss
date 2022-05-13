@@ -29,8 +29,13 @@ a {
 .showcase {
     //mixin from config
     @include set-background($primary-color);
-
     height: 100vh;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 
     nav {
         display: flex;
@@ -63,6 +68,7 @@ a {
 
         img {
             width: 50%;
+
         }
 
         h1 {
@@ -74,3 +80,6 @@ a {
     }
 
 }
+
+
+@import 'mobile'

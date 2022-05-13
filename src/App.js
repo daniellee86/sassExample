@@ -2,10 +2,10 @@ import "./css/style.css"
 function App() {
   return (
     <div className="App">
-      <header class="showcase">
-			<div class="container">
+      <header className="showcase">
+			<div className="container">
 				<nav>
-					<h1 class="logo">My Website</h1>
+					<h1 className="logo">CLOUGH Media</h1>
 					<ul>
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About</a></li>
@@ -13,19 +13,18 @@ function App() {
 					</ul>
 				</nav>
 
-				<div class="showcase-content">
+				<div className="showcase-content">
 					<div>
-						<h1>Make Your Marketing Real</h1>
-						<p class="my-1">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-							eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
-							vitae dolore.
-						</p>
-						<a href="#" class="btn-primary">Learn More</a>
-						<a href="#" class="btn-secondary">Sign Up</a>
+						<h1>Bring Your Marketing To Life.</h1>
+						<p className="my-3">
+						Digital marketing agency based in Manchester, UK. Specialising in web development, web design, 
+						social media marketing and mobile app development services.
+						</p> 
+						<a href="#" className="btn-primary">Learn More</a>
+						<a href="#" className="btn-secondary">Sign Up</a>
 					</div>
-					<img
-						src="https://themesbrand.com/zooki/layout/images/home-2-img.png"
+					<img className="p-2"
+						src="https://themesbrand.com/softland/layout/images/features/img-4.png"
 					/>
 				</div>
 			</div>

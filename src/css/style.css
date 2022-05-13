@@ -97,7 +97,7 @@
 }
 
 .btn-primary {
-  background-color: #418bff;
+  background-color: #1c4764;
   color: #fff;
 }
 
@@ -127,9 +127,15 @@ a {
 }
 
 .showcase {
-  background-color: #0e6cff;
+  background-color: #112B3C;
   color: #fff;
   height: 100vh;
+}
+
+.showcase .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .showcase nav {
@@ -169,4 +175,16 @@ a {
 .showcase-content h1 {
   font-size: 50px;
   line-height: 1.2;
+}
+
+@media (max-width: 700px) {
+  .showcase .logo {
+    font-size: 15px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
 }
